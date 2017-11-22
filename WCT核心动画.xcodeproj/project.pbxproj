@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0327A61C8D209500C2A169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0327A51C8D209500C2A169 /* main.m */; };
+		1C0327A91C8D209500C2A169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0327A81C8D209500C2A169 /* AppDelegate.m */; };
+		1C0327AC1C8D209500C2A169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0327AB1C8D209500C2A169 /* ViewController.m */; };
+		1C0327AF1C8D209500C2A169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0327AD1C8D209500C2A169 /* Main.storyboard */; };
+		1C0327B11C8D209500C2A169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0327B01C8D209500C2A169 /* Assets.xcassets */; };
+		1C0327B41C8D209500C2A169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0327B21C8D209500C2A169 /* LaunchScreen.storyboard */; };
+		1C0327BF1C8D209500C2A169 /* WCT____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0327BE1C8D209500C2A169 /* WCT____Tests.m */; };
+		1C0327CA1C8D209500C2A169 /* WCT____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0327C91C8D209500C2A169 /* WCT____UITests.m */; };
+		1C0327D81C8D20AD00C2A169 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0327D71C8D20AD00C2A169 /* QuartzCore.framework */; };
+		1C0327DB1C8D50B200C2A169 /* MyCAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0327DA1C8D50B200C2A169 /* MyCAHelper.m */; };
+		1C515CD11FB2A00600575EC4 /* PathLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C515CD01FB2A00600575EC4 /* PathLayer.m */; };
+		1C515CD91FB2D7DC00575EC4 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C515CD81FB2D7DC00575EC4 /* ShapeViewController.m */; };
+		1C5BD3C91FAAEFFD001318DE /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BD3C81FAAEFFD001318DE /* FlipViewController.m */; };
+		1C8C56341FB3E9080043F3A6 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C56331FB3E9080043F3A6 /* ShapeView.m */; };
+		1C8EE67D1FB149FB0021470B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EE67C1FB149FB0021470B /* RootViewController.m */; };
+		1C8EE6811FB1A7690021470B /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EE6801FB1A7690021470B /* PathViewController.m */; };
+		1C8EE6841FB1AF1A0021470B /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EE6831FB1AF1A0021470B /* PathView.m */; };
+		1CF3CB671FB053500009190F /* UIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF3CB651FB053500009190F /* UIViewAnimationVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C0327BB1C8D209500C2A169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C0327991C8D209500C2A169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C0327A01C8D209500C2A169;
+			remoteInfo = "WCT核心动画";
+		};
+		1C0327C61C8D209500C2A169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C0327991C8D209500C2A169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C0327A01C8D209500C2A169;
+			remoteInfo = "WCT核心动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0327A11C8D209500C2A169 /* WCT核心动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCT核心动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0327A51C8D209500C2A169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C0327A71C8D209500C2A169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C0327A81C8D209500C2A169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C0327AA1C8D209500C2A169 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C0327AB1C8D209500C2A169 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C0327AE1C8D209500C2A169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C0327B01C8D209500C2A169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0327B31C8D209500C2A169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C0327B51C8D209500C2A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0327BA1C8D209500C2A169 /* WCT核心动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT核心动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0327BE1C8D209500C2A169 /* WCT____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WCT____Tests.m"; sourceTree = "<group>"; };
+		1C0327C01C8D209500C2A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0327C51C8D209500C2A169 /* WCT核心动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCT核心动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0327C91C8D209500C2A169 /* WCT____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WCT____UITests.m"; sourceTree = "<group>"; };
+		1C0327CB1C8D209500C2A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0327D71C8D20AD00C2A169 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1C0327D91C8D50B200C2A169 /* MyCAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCAHelper.h; sourceTree = "<group>"; };
+		1C0327DA1C8D50B200C2A169 /* MyCAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCAHelper.m; sourceTree = "<group>"; };
+		1C515CCF1FB2A00600575EC4 /* PathLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathLayer.h; sourceTree = "<group>"; };
+		1C515CD01FB2A00600575EC4 /* PathLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathLayer.m; sourceTree = "<group>"; };
+		1C515CD71FB2D7DC00575EC4 /* ShapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		1C515CD81FB2D7DC00575EC4 /* ShapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		1C5BD3C71FAAEFFD001318DE /* FlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipViewController.h; sourceTree = "<group>"; };
+		1C5BD3C81FAAEFFD001318DE /* FlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipViewController.m; sourceTree = "<group>"; };
+		1C8C56321FB3E9080043F3A6 /* ShapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		1C8C56331FB3E9080043F3A6 /* ShapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		1C8EE67B1FB149FB0021470B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1C8EE67C1FB149FB0021470B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1C8EE67E1FB19EEB0021470B /* 朴信惠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朴信惠.jpg"; sourceTree = "<group>"; };
+		1C8EE67F1FB1A7690021470B /* PathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
+		1C8EE6801FB1A7690021470B /* PathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
+		1C8EE6821FB1AF1A0021470B /* PathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		1C8EE6831FB1AF1A0021470B /* PathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
+		1CF3CB651FB053500009190F /* UIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationVC.m; sourceTree = "<group>"; };
+		1CF3CB661FB053500009190F /* UIViewAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationVC.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C03279E1C8D209500C2A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0327D81C8D20AD00C2A169 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0327B71C8D209500C2A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0327C21C8D209500C2A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0327981C8D209500C2A169 = {
+			isa = PBXGroup;
+			children = (
+				1C0327D71C8D20AD00C2A169 /* QuartzCore.framework */,
+				1C0327A31C8D209500C2A169 /* WCT核心动画 */,
+				1C0327BD1C8D209500C2A169 /* WCT核心动画Tests */,
+				1C0327C81C8D209500C2A169 /* WCT核心动画UITests */,
+				1C0327A21C8D209500C2A169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0327A21C8D209500C2A169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0327A11C8D209500C2A169 /* WCT核心动画.app */,
+				1C0327BA1C8D209500C2A169 /* WCT核心动画Tests.xctest */,
+				1C0327C51C8D209500C2A169 /* WCT核心动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C0327A31C8D209500C2A169 /* WCT核心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				1C515CD61FB2D7B400575EC4 /* CAShapeLayer */,
+				1C515CD51FB2D78500575EC4 /* 路径+动画 */,
+				1C515CD41FB2D77300575EC4 /* 几个动画案例 */,
+				1C515CD31FB2D74F00575EC4 /* Core Animation动画 */,
+				1C515CD21FB2D73900575EC4 /* UIView动画 */,
+				1C8EE67E1FB19EEB0021470B /* 朴信惠.jpg */,
+				1C0327A71C8D209500C2A169 /* AppDelegate.h */,
+				1C0327A81C8D209500C2A169 /* AppDelegate.m */,
+				1C8EE67B1FB149FB0021470B /* RootViewController.h */,
+				1C8EE67C1FB149FB0021470B /* RootViewController.m */,
+				1C0327AD1C8D209500C2A169 /* Main.storyboard */,
+				1C0327B01C8D209500C2A169 /* Assets.xcassets */,
+				1C0327B21C8D209500C2A169 /* LaunchScreen.storyboard */,
+				1C0327B51C8D209500C2A169 /* Info.plist */,
+				1C0327A41C8D209500C2A169 /* Supporting Files */,
+				1C0327D91C8D50B200C2A169 /* MyCAHelper.h */,
+				1C0327DA1C8D50B200C2A169 /* MyCAHelper.m */,
+			);
+			path = "WCT核心动画";
+			sourceTree = "<group>";
+		};
+		1C0327A41C8D209500C2A169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C0327A51C8D209500C2A169 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C0327BD1C8D209500C2A169 /* WCT核心动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C0327BE1C8D209500C2A169 /* WCT____Tests.m */,
+				1C0327C01C8D209500C2A169 /* Info.plist */,
+			);
+			path = "WCT核心动画Tests";
+			sourceTree = "<group>";
+		};
+		1C0327C81C8D209500C2A169 /* WCT核心动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C0327C91C8D209500C2A169 /* WCT____UITests.m */,
+				1C0327CB1C8D209500C2A169 /* Info.plist */,
+			);
+			path = "WCT核心动画UITests";
+			sourceTree = "<group>";
+		};
+		1C515CD21FB2D73900575EC4 /* UIView动画 */ = {
+			isa = PBXGroup;
+			children = (
+				1CF3CB661FB053500009190F /* UIViewAnimationVC.h */,
+				1CF3CB651FB053500009190F /* UIViewAnimationVC.m */,
+			);
+			name = "UIView动画";
+			sourceTree = "<group>";
+		};
+		1C515CD31FB2D74F00575EC4 /* Core Animation动画 */ = {
+			isa = PBXGroup;
+			children = (
+				1C5BD3C71FAAEFFD001318DE /* FlipViewController.h */,
+				1C5BD3C81FAAEFFD001318DE /* FlipViewController.m */,
+			);
+			name = "Core Animation动画";
+			sourceTree = "<group>";
+		};
+		1C515CD41FB2D77300575EC4 /* 几个动画案例 */ = {
+			isa = PBXGroup;
+			children = (
+				1C0327AA1C8D209500C2A169 /* ViewController.h */,
+				1C0327AB1C8D209500C2A169 /* ViewController.m */,
+			);
+			name = "几个动画案例";
+			sourceTree = "<group>";
+		};
+		1C515CD51FB2D78500575EC4 /* 路径+动画 */ = {
+			isa = PBXGroup;
+			children = (
+				1C8EE67F1FB1A7690021470B /* PathViewController.h */,
+				1C8EE6801FB1A7690021470B /* PathViewController.m */,
+				1C8EE6821FB1AF1A0021470B /* PathView.h */,
+				1C8EE6831FB1AF1A0021470B /* PathView.m */,
+				1C515CCF1FB2A00600575EC4 /* PathLayer.h */,
+				1C515CD01FB2A00600575EC4 /* PathLayer.m */,
+			);
+			name = "路径+动画";
+			sourceTree = "<group>";
+		};
+		1C515CD61FB2D7B400575EC4 /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1C515CD71FB2D7DC00575EC4 /* ShapeViewController.h */,
+				1C515CD81FB2D7DC00575EC4 /* ShapeViewController.m */,
+				1C8C56321FB3E9080043F3A6 /* ShapeView.h */,
+				1C8C56331FB3E9080043F3A6 /* ShapeView.m */,
+			);
+			name = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0327A01C8D209500C2A169 /* WCT核心动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0327CE1C8D209500C2A169 /* Build configuration list for PBXNativeTarget "WCT核心动画" */;
+			buildPhases = (
+				1C03279D1C8D209500C2A169 /* Sources */,
+				1C03279E1C8D209500C2A169 /* Frameworks */,
+				1C03279F1C8D209500C2A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCT核心动画";
+			productName = "WCT核心动画";
+			productReference = 1C0327A11C8D209500C2A169 /* WCT核心动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C0327B91C8D209500C2A169 /* WCT核心动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0327D11C8D209500C2A169 /* Build configuration list for PBXNativeTarget "WCT核心动画Tests" */;
+			buildPhases = (
+				1C0327B61C8D209500C2A169 /* Sources */,
+				1C0327B71C8D209500C2A169 /* Frameworks */,
+				1C0327B81C8D209500C2A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C0327BC1C8D209500C2A169 /* PBXTargetDependency */,
+			);
+			name = "WCT核心动画Tests";
+			productName = "WCT核心动画Tests";
+			productReference = 1C0327BA1C8D209500C2A169 /* WCT核心动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C0327C41C8D209500C2A169 /* WCT核心动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0327D41C8D209500C2A169 /* Build configuration list for PBXNativeTarget "WCT核心动画UITests" */;
+			buildPhases = (
+				1C0327C11C8D209500C2A169 /* Sources */,
+				1C0327C21C8D209500C2A169 /* Frameworks */,
+				1C0327C31C8D209500C2A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C0327C71C8D209500C2A169 /* PBXTargetDependency */,
+			);
+			name = "WCT核心动画UITests";
+			productName = "WCT核心动画UITests";
+			productReference = 1C0327C51C8D209500C2A169 /* WCT核心动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0327991C8D209500C2A169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = four;
+				TargetAttributes = {
+					1C0327A01C8D209500C2A169 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVTLVSMJ6Q;
+					};
+					1C0327B91C8D209500C2A169 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVTLVSMJ6Q;
+						TestTargetID = 1C0327A01C8D209500C2A169;
+					};
+					1C0327C41C8D209500C2A169 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VVTLVSMJ6Q;
+						TestTargetID = 1C0327A01C8D209500C2A169;
+					};
+				};
+			};
+			buildConfigurationList = 1C03279C1C8D209500C2A169 /* Build configuration list for PBXProject "WCT核心动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C0327981C8D209500C2A169;
+			productRefGroup = 1C0327A21C8D209500C2A169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C0327A01C8D209500C2A169 /* WCT核心动画 */,
+				1C0327B91C8D209500C2A169 /* WCT核心动画Tests */,
+				1C0327C41C8D209500C2A169 /* WCT核心动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C03279F1C8D209500C2A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0327B41C8D209500C2A169 /* LaunchScreen.storyboard in Resources */,
+				1C0327B11C8D209500C2A169 /* Assets.xcassets in Resources */,
+				1C0327AF1C8D209500C2A169 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0327B81C8D209500C2A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0327C31C8D209500C2A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C03279D1C8D209500C2A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C515CD91FB2D7DC00575EC4 /* ShapeViewController.m in Sources */,
+				1CF3CB671FB053500009190F /* UIViewAnimationVC.m in Sources */,
+				1C8EE67D1FB149FB0021470B /* RootViewController.m in Sources */,
+				1C515CD11FB2A00600575EC4 /* PathLayer.m in Sources */,
+				1C0327AC1C8D209500C2A169 /* ViewController.m in Sources */,
+				1C8EE6841FB1AF1A0021470B /* PathView.m in Sources */,
+				1C8EE6811FB1A7690021470B /* PathViewController.m in Sources */,
+				1C0327DB1C8D50B200C2A169 /* MyCAHelper.m in Sources */,
+				1C0327A91C8D209500C2A169 /* AppDelegate.m in Sources */,
+				1C0327A61C8D209500C2A169 /* main.m in Sources */,
+				1C8C56341FB3E9080043F3A6 /* ShapeView.m in Sources */,
+				1C5BD3C91FAAEFFD001318DE /* FlipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0327B61C8D209500C2A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0327BF1C8D209500C2A169 /* WCT____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0327C11C8D209500C2A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0327CA1C8D209500C2A169 /* WCT____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C0327BC1C8D209500C2A169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C0327A01C8D209500C2A169 /* WCT核心动画 */;
+			targetProxy = 1C0327BB1C8D209500C2A169 /* PBXContainerItemProxy */;
+		};
+		1C0327C71C8D209500C2A169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C0327A01C8D209500C2A169 /* WCT核心动画 */;
+			targetProxy = 1C0327C61C8D209500C2A169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C0327AD1C8D209500C2A169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0327AE1C8D209500C2A169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C0327B21C8D209500C2A169 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0327B31C8D209500C2A169 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C0327CC1C8D209500C2A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C0327CD1C8D209500C2A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C0327CF1C8D209500C2A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WCT核心动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.WCT----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C0327D01C8D209500C2A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WCT核心动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.WCT----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C0327D21C8D209500C2A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WCT核心动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.WCT----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCT核心动画.app/WCT核心动画";
+			};
+			name = Debug;
+		};
+		1C0327D31C8D209500C2A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WCT核心动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.WCT----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCT核心动画.app/WCT核心动画";
+			};
+			name = Release;
+		};
+		1C0327D51C8D209500C2A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WCT核心动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.WCT----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WCT核心动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C0327D61C8D209500C2A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WCT核心动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kmhealthcloud.WCT----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WCT核心动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C03279C1C8D209500C2A169 /* Build configuration list for PBXProject "WCT核心动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0327CC1C8D209500C2A169 /* Debug */,
+				1C0327CD1C8D209500C2A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0327CE1C8D209500C2A169 /* Build configuration list for PBXNativeTarget "WCT核心动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0327CF1C8D209500C2A169 /* Debug */,
+				1C0327D01C8D209500C2A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0327D11C8D209500C2A169 /* Build configuration list for PBXNativeTarget "WCT核心动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0327D21C8D209500C2A169 /* Debug */,
+				1C0327D31C8D209500C2A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0327D41C8D209500C2A169 /* Build configuration list for PBXNativeTarget "WCT核心动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0327D51C8D209500C2A169 /* Debug */,
+				1C0327D61C8D209500C2A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C0327991C8D209500C2A169 /* Project object */;
+}
